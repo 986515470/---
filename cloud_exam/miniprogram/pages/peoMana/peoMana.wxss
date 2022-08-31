@@ -1,0 +1,19 @@
+.body .que-pad {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.body .que-pad text {
+
+  margin-left: 35px;
+  font-size: 14px;
+  user-select: all;
+
+
+}

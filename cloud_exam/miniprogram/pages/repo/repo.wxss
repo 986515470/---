@@ -1,0 +1,57 @@
+/* pages/repo/repo.wxss */
+.head {
+  height: 50px;
+  background-color: aliceblue;
+  width: 100%;
+  overflow: hidden;
+}
+
+.head input {
+  height: 30px;
+  margin-top: 10px;
+  background-color: white;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 6px;
+}
+
+.type-pad {
+  background-color: white;
+  height: 40px;
+}
+
+.type-pad text {
+  margin-left: 35px;
+  line-height: 40px;
+  font-size: 14px;
+
+}
+
+.type-pad text:last-child {
+  margin-left: 50px;
+}
+
+.body {
+  padding: 2px;
+}
+
+.body .que-pad {
+  padding: 2px;
+  background-color: white;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.body .que-pad text {
+
+  margin-left: 35px;
+  font-size: 14px;
+  user-select: all;
+
+}

@@ -1,0 +1,35 @@
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+</cu-custom>
+
+<view class="cu-bar bg-white">
+  <view class="action sub-title">
+    <text class="text-xl text-bold text-blue">关于我们</text>
+    <text class="text-ABC text-blue">about</text>
+  </view>
+</view>
+
+<scroll-view class='box'>
+<view class="cu-timeline">
+  <view class="cu-time">Now</view>
+
+<view class="cu-item cur cuIcon-loading">
+    <view class="content bg-green shadow-blur">
+      <text>----/--/--</text> 未完待续
+    </view>
+  </view>
+
+  <view class="cu-item cur cuIcon-noticefill">
+    <view class="content bg-grey shadow-blur">
+      <text>2022/05/02</text> 大致完成主要页面的开发
+    </view>
+  </view>
+  <view class="cu-item text-blue">
+    <view class="bg-blue content">
+      <text>2022/04/XX</text> 开始准备爬坑，干代码。
+    </view>
+    <view class="bg-cyan content">
+     <text>2022/04/XX</text> 忘记何时项目启动
+    </view>
+  </view>
+</view>
+</scroll-view>

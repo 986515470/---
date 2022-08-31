@@ -1,0 +1,30 @@
+<cu-custom bgColor="bg-gradual-pink" isBack='{{true}}'>
+  <view slot="content">教师管理</view>
+</cu-custom>
+<scroll-view scroll-y="true" style="height:82vh;" lower-threshold="10" bindscrolltolower="scolltolowe">
+  <block wx:for="{{teachers}}" wx:for-item="tea">
+
+    <view class="bg-white cu-bar solid-bottom">
+      <view class="cu-avatar round xl margin" style="background-image:url({{tea.avatar}});"></view>
+      <view class="text-lg box">{{tea.name}}</view>
+      <view class="text-sm flex">
+        <text wx:for="{{5}}" >
+          <text class="{{tea.stars>index?favorfill:favor}} text-yellow"></text>
+        </text>
+      </view>
+    </view>
+
+    <view class="cu-bar bg-white solid-bottom margin-top">
+      <view class='action'>
+        <text class="cuIcon-title text-blue"></text>教师简介
+      </view>
+    </view>
+
+    <view class="solid-bottom padding-xs flex align-center bg-white">
+      <view class="flex-sub">
+        <view class="padding">{{tea.info}}</view>
+      </view>
+    </view>
+
+  </block>
+</scroll-view>

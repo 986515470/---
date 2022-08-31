@@ -1,0 +1,150 @@
+{
+    "setting": {
+        "compileHotReLoad": true,
+        "urlCheck": false,
+        "autoAudits": true,
+        "preloadBackgroundData": false
+    },
+    "projectname": "%E4%BA%91%E7%AD%94%E9%A2%98",
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "libVersion": "2.24.1",
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "index",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "register",
+                    "pathName": "pages/register/register",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "answer",
+                    "pathName": "pages/answer/answer",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "me",
+                    "pathName": "pages/me/me",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "about",
+                    "pathName": "pages/about/about",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "welcome",
+                    "pathName": "pages/welcome/welcome",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "result",
+                    "pathName": "pages/result/result",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "order",
+                    "pathName": "pages/order/order",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "teacher",
+                    "pathName": "pages/teacher/teacher",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "comment",
+                    "pathName": "pages/comment/comment",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "exercise",
+                    "pathName": "pages/exercise/exercise",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "feedback",
+                    "pathName": "pages/feedback/feedback",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/index/index",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/index/index",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/manage/manage",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/repo/repo",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/revise/revise",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/teaMana/teaMana",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/teacher/teacher",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/peoMana/peoMana",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/ordMana/ordMana",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

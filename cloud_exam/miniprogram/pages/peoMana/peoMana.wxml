@@ -1,0 +1,17 @@
+<cu-custom bgColor="bg-gradual-pink" isBack='{{true}}'>
+  <view slot="content">人员信息</view>
+</cu-custom>
+<view class="body">
+  <view class="que-pad" wx:for="{{people}}" wx:key="{{_id}}">
+    <text style="margin-left: 30px;width: 20px;">{{index+1}} </text>
+    <text style="width: 200rpx;overflow:hidden;	white-space:nowrap;">{{item.name}}</text>
+    <block wx:if="item.admin">
+      <text>管理员</text>
+    </block>
+    <block wx:else>
+    <text>用户</text>
+    <text>{{item.score}}</text>
+    </block>
+    
+  </view>
+</view>

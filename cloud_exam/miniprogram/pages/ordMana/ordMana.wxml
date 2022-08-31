@@ -1,0 +1,17 @@
+<cu-custom bgColor="bg-gradual-pink" isBack='{{true}}'>
+  <view slot="content">预约信息</view>
+</cu-custom>
+<view class="body">
+  <block wx:for="{{datas}}" wx:key="{{_id}}" wx:if="{{item.order.status}}">
+
+    <view class="que-pad">
+      <text>{{index+1}} </text>
+      <text style="width: 50px;">{{item.name}}</text>
+      <text>{{item.order.tea}}</text>
+      <text>{{item.order.time}}</text>
+      <text>{{item.order.place}}</text>
+    </view>
+
+  </block>
+
+</view>

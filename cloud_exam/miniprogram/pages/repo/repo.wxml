@@ -1,0 +1,24 @@
+<cu-custom bgColor="bg-gradual-pink" isBack='{{true}}'>
+  <view slot="content">题库管理</view>
+</cu-custom>
+<view class="head">
+  <input class="weui-input" placeholder="请输入搜索題目" placeholder-style="padding-left:10px;front-size:12px" bindinput="bindKeyInput" />
+</view>
+<view class="type-pad">
+  <text>题号</text>
+  <text style="margin-left: 55px;">题目</text>
+  <text style="margin-left: 55px;">正确答案</text>
+  <text>操作</text>
+</view>
+
+<view class="body">
+  <view class="que-pad" wx:for="{{questions}}" wx:key="{{_id}}">
+    <text style="margin-left: 30px;width: 20px;">{{index+1}} </text>
+    <text style="width: 200rpx;overflow:hidden;	white-space:nowrap;">{{item.title}}</text>
+    <text>{{item.answer}}</text>
+    <button size="mini" bindtap="revise" data-index="{{index}}" style="position: relative; left: 20rpx; top: 1rpx">编辑</button>
+    <button size=mini" bindtap="delect" data-index="{{index}}" style="position: relative; left: 8rpx; top: 0rpx">删除</button>
+  </view>
+</view>
+
+<button type="default" style="width: 60%;" bindtap="add">添加题目</button>
